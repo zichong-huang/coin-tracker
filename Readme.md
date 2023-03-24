@@ -1,7 +1,7 @@
 
 # Coin Tracker Interview - HelloWorld Application
 
-This is a sample helloworld application using GCP Cloud Run, docker, Python, Flask, Terraform and github to build. This application is running on GCP Cloud Run and do not need to manually deploy on local. But here is the way you could manually deploy:
+This is a sample helloworld application using GCP Cloud Run, docker, Python, Flask, Terraform and github to build. This application is running on GCP Cloud Run and do not need to manually deploy using your own local machine. But here is the way you could manually deploy if you prefer:
 
 ## Build Docker image (Assume you have a GCP service account authorizte already): 
 ### Build the Docker image
