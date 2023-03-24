@@ -8,7 +8,7 @@ variable "environment" {
 #-------------------------------------------
 variable "region" {
   description = "Region"
-  default = "europe-north1"
+  default     = "europe-north1"
 }
 
 variable "create_app_engine" {

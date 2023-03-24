@@ -18,6 +18,6 @@ terraform {
 }
 
 provider "google" {
-  region = "europe-north1"
+  region  = "europe-north1"
   project = "coin-tracker-381614"
 }
