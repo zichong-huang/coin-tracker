@@ -1,0 +1,1 @@
+bucket="coin-tracker-terraform"
