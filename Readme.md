@@ -1,14 +1,37 @@
 
 # Coin Tracker Interview - HelloWorld Application
 
-This is a sample helloworld application using GCP Cloud Run, docker, Python, Flask, Terraform and github to build. This application is running on GCP Cloud Run and do not need to manually 
+This is a sample helloworld application using GCP Cloud Run, docker, Python, Flask, Terraform and github to build. This application is running on GCP Cloud Run and do not need to manually deploy on local. But here is the way you could manually deploy:
+
+## Build Docker image (Assume you have a GCP service account authorizte already): 
+### Build the Docker image
+```docker build -t gcr.io/coin-tracker-381614/hello-world .```
+
+### Push the Docker image to GCR
+```docker push gcr.io/coin-tracker-381614/hello-world```
+
+## Run Terraform to apply
+```bash
+# Initialize the Terraform configuration
+terraform init
+
+# Preview the changes to be made
+terraform plan 
+
+# Apply the changes to create the Cloud Run service
+terraform apply 
+```
 
 ## Workflow
 
 Helloworld Repo ------> Github Action -------> Terraform ---------> GCP (Cloud Run)
 
-You can view the application in [here](https://helloworld-kkkza5jgnq-lz.a.run.app/)
+You can view the application in [here](https://helloworld-kkkza5jgnq-lz.a.run.app/), or do the the a simple curl command like 
 
+```bash
+% curl https://helloworld-kkkza5jgnq-lz.a.run.app/
+>Hello World!
+```
 
 ## Highlight
 
