@@ -1,7 +1,22 @@
 
 # Coin Tracker Interview - HelloWorld Application
 
-This is a sample helloworld application using GCP Cloud Run, docker, Python, Flask, Terraform and github to build. This application is running on GCP Cloud Run and do not need to manually deploy using your own local machine. But here is the way you could manually deploy if you prefer:
+This is a sample helloworld application using GCP Cloud Run, docker, Python, Flask, Terraform and github to build. This application is running on GCP Cloud Run and do not need to manually deploy using your own local machine. Because Cloud Run is a serverless compute platform that allows developers to deploy and run containerized applications without having to worry about the underlying infrastructure. There are several benefits to using Cloud Run:
+
+Scalability: Cloud Run allows applications to scale automatically in response to changes in traffic or workload. This means that the application can handle spikes in traffic without any manual intervention.
+
+Cost-effectiveness: With Cloud Run, you only pay for the exact amount of compute resources used by your application, making it a cost-effective option compared to traditional virtual machines or container orchestration platforms.
+
+Easy deployment: Cloud Run makes it easy to deploy and run containerized applications with just a few clicks. You can deploy applications from a container registry or build and deploy them directly from source code.
+
+Portability: Cloud Run supports containers built using any programming language or framework, making it a flexible option for developers who want to use their preferred development tools.
+
+Security: Cloud Run provides built-in security features such as automatic TLS encryption and identity and access management (IAM) integration, making it easy to secure your applications.
+
+Integration: Cloud Run integrates with other Google Cloud services such as Cloud Storage, Cloud SQL, and Cloud Pub/Sub, making it easy to build and deploy complex applications that use multiple services.
+
+## Manual testing:
+Although I have enabled CI/CD for this application, but here is the way you could manually deploy if you prefer:
 
 ## Build Docker image (Assume you have a GCP service account authorizte already): 
 ### Build the Docker image
