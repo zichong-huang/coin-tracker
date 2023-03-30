@@ -1,7 +1,7 @@
 
 # Coin Tracker Interview - HelloWorld Application
 
-This is a sample helloworld application using GCP Cloud Run, docker, Python, Flask, Terraform and github to build. This application is running on GCP Cloud Run and do not need to manually deploy using your own local machine. Because Cloud Run is a serverless compute platform that allows developers to deploy and run containerized applications without having to worry about the underlying infrastructure. There are several benefits to using Cloud Run:
+This is a sample helloworld application using GCP Cloud Run, docker, Python, Flask, Terraform and github to build. This application is running on GCP Cloud Run and CI/CD have been setup using gitHub Action, so we do not need to manually deploy using your own local machine. Also, because Cloud Run is a serverless compute platform that allows developers to deploy and run containerized applications without having to worry about the underlying infrastructure. There are several benefits to using Cloud Run:
 
 Scalability: Cloud Run allows applications to scale automatically in response to changes in traffic or workload. This means that the application can handle spikes in traffic without any manual intervention.
 
